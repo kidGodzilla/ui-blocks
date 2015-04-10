@@ -24,15 +24,21 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 .navbar-shrink button.btn-xs {
-  margin-top: 8px;
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
   padding: 4px 10px;
 }
 .navbar-shrink .navbar-nav {
   float: left;
 }
+.navbar-shrink .navbar-nav a {
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  line-height: 21px;
+}
 .navbar-shrink .navbar-nav > div {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
   line-height: 21px;
 }
 .tall-navbar.navbar {
