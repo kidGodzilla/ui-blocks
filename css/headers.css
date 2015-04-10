@@ -1,6 +1,7 @@
 header.img-background {
   background: #444;
   min-height: 650px;
+  height: 100vh;
   min-width: 100%;
 }
 header.bg-cover {
@@ -9,8 +10,38 @@ header.bg-cover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  opacity: 0.95;
 }
-.pull-up-21-px {
-  position: relative;
-  top: -21px;
+.white-text {
+  color: #e9e9e9;
+}
+header h1 {
+  line-height: 1.25;
+  margin-top: 10px;
+}
+.centered-hero {
+  max-width: 75%;
+  margin: 0 auto;
+}
+.centered-hero h1,
+.centered-hero p {
+  font-weight: 300;
+}
+.centered-hero button {
+  font-size: 11px;
+  font-weight: 500;
+  margin: 10px 5px;
+}
+.left-aligned-hero {
+  max-width: 75%;
+  margin: 0 auto;
+}
+.left-aligned-hero h1,
+.left-aligned-hero p {
+  font-weight: 300;
+}
+.left-aligned-hero button {
+  font-size: 11px;
+  font-weight: 500;
+  margin: 10px 5px;
 }
